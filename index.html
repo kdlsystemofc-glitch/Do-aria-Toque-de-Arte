@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doçaria Toque de Arte | Confeitaria Artesanal & Delicatessen em São Bernardo do Campo</title>
+  <meta name="description" content="Doçaria Toque de Arte em São Bernardo do Campo (4.7★ no Google). Bolos artesanais decorados, Kits Festa, Copos da Felicidade e Salgados Finos. Encomendas via WhatsApp (11) 96305-7901.">
+  <meta name="keywords" content="confeitaria sao bernardo do campo, doceria artesanal sbc, bolos decorados abc, kit festa sao bernardo, copo da felicidade, salgados finos delivery">
+  <meta name="author" content="Doçaria Toque de Arte">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://docariatoquedearte.vercel.app/">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+  <link rel="apple-touch-icon" href="favicon.png">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://docariatoquedearte.vercel.app/">
+  <meta property="og:title" content="Doçaria Toque de Arte | Confeitaria Artesanal & Delicatessen">
+  <meta property="og:description" content="Doces & Bolos com Toque de Arte! 100% artesanais, ingredientes nobres e produção diária em São Bernardo do Campo. Encomendas: (11) 96305-7901.">
+  <meta property="og:image" content="assets/cutouts/bolo-artesanal.png">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="Doçaria Toque de Arte">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Doçaria Toque de Arte | Confeitaria Artesanal">
+  <meta name="twitter:description" content="Bolos de festa, kits comemoração, sobremesas e salgados finos em São Bernardo do Campo. Peça pelo WhatsApp (11) 96305-7901.">
+  <meta name="twitter:image" content="assets/cutouts/bolo-artesanal.png">
+
+  <!-- Schema.org JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Bakery",
+    "name": "Doçaria Toque de Arte",
+    "image": "https://docariatoquedearte.vercel.app/assets/cutouts/bolo-artesanal.png",
+    "@id": "https://docariatoquedearte.vercel.app/#bakery",
+    "url": "https://docariatoquedearte.vercel.app/",
+    "telephone": "+5511963057901",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Rua Itaquera, 51",
+      "addressLocality": "São Bernardo do Campo",
+      "addressRegion": "SP",
+      "postalCode": "09761-120",
+      "addressCountry": "BR"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": -23.7056,
+      "longitude": -46.5417
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "opens": "09:00",
+        "closes": "19:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Sunday",
+        "opens": "09:00",
+        "closes": "15:00"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.7",
+      "reviewCount": "159",
+      "bestRating": "5"
+    },
+    "sameAs": [
+      "https://www.instagram.com/docariatoquedearte/"
+    ]
+  }
+  </script>
+
+  <!-- Google Fonts: Bricolage Grotesque + Caveat + Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800;12..96,900&family=Caveat:wght@600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ================================================================= -->
+  <!-- 01. TOP ANNOUNCEMENT BAR (Scene 01)                               -->
+  <!-- ================================================================= -->
+  <aside class="announcement-bar" id="announcementBar">
+    <div class="announcement-inner">
+      <p class="announcement-text">
+        <span class="desktop-text">Faça sua encomenda pelo WhatsApp <strong>(11) 96305-7901</strong> • Entregas em São Bernardo do Campo & Grande ABC • Seg a Sáb 09h às 19h | Dom 09h às 15h</span>
+        <span class="mobile-text">WhatsApp: <strong>(11) 96305-7901</strong> • Encomendas no ABC</span>
+      </p>
+    </div>
+  </aside>
+
+  <!-- ================================================================= -->
+  <!-- 02. GLOBAL NAVIGATION HEADER (Scene 02)                           -->
+  <!-- ================================================================= -->
+  <header class="global-header" id="globalHeader">
+    <div class="header-container">
+      
+      <!-- Brand Logo Lockup -->
+      <a href="#hero" class="brand-logo-link" aria-label="Doçaria Toque de Arte - Início">
+        <img src="imagens/imgi_2_341596861_915528562865682_5462042709908393688_n.jpg" alt="Logo Doçaria Toque de Arte" class="brand-logo-img">
+        <div class="brand-text-lockup">
+          <span class="brand-title">TOQUE DE ARTE</span>
+          <span class="brand-subtitle">DOÇARIA & DELICATESSEN</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="desktop-nav" aria-label="Navegação Principal">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#cardapio" class="nav-link">CARDÁPIO <svg class="dropdown-chevron" viewBox="0 0 10 6" fill="none"><path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li>
+          <li class="nav-item"><a href="#promos" class="nav-link">KITS FESTA</a></li>
+          <li class="nav-item"><a href="#mais-pedidos" class="nav-link">BOLOS DE FESTA</a></li>
+          <li class="nav-item"><a href="#mais-pedidos" class="nav-link">SOBREMESAS</a></li>
+          <li class="nav-item"><a href="#mais-pedidos" class="nav-link">SALGADOS</a></li>
+          <li class="nav-item"><a href="#historias" class="nav-link">NOSSA HISTÓRIA</a></li>
+          <li class="nav-item"><a href="#comunidade" class="nav-link">MOMENTOS</a></li>
+          <li class="nav-item"><a href="#contato" class="nav-link">CONTATO</a></li>
+        </ul>
+      </nav>
+
+      <!-- Utility Actions -->
+      <div class="header-actions">
+        <!-- Search Icon Button -->
+        <button class="icon-btn" aria-label="Buscar produtos no cardápio" title="Buscar no cardápio">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+        </button>
+
+        <!-- User / Store Location Icon Button -->
+        <a href="https://maps.google.com/?q=Rua+Itaquera+51+Jardim+Petroni+Sao+Bernardo+do+Campo" target="_blank" rel="noopener" class="icon-btn" aria-label="Localização da loja física" title="Ver no Google Maps (4.7★)">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+        </a>
+
+        <!-- Cart / WhatsApp Direct Action Icon Button -->
+        <a href="https://wa.me/5511963057901?text=Ol%C3%A1%2C+gostaria+de+fazer+um+pedido+na+Do%C3%A7aria+Toque+de+Arte!" target="_blank" rel="noopener" class="icon-btn cart-btn" aria-label="Sacola de Pedidos / WhatsApp" title="Fazer Pedido no WhatsApp">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+          <span class="cart-badge">1</span>
+        </a>
+
+        <!-- Mobile Menu Hamburger Button -->
+        <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Abrir Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Mobile Off-Canvas Drawer Navigation -->
+  <div class="mobile-drawer-overlay" id="mobileDrawerOverlay"></div>
+  <aside class="mobile-drawer" id="mobileDrawer">
+    <div class="drawer-header">
+      <div class="drawer-brand">
+        <img src="imagens/imgi_2_341596861_915528562865682_5462042709908393688_n.jpg" alt="Logo" class="drawer-logo">
+        <span>Toque de Arte</span>
+      </div>
+      <button class="drawer-close" id="drawerClose" aria-label="Fechar Menu">✕</button>
+    </div>
+    <ul class="drawer-nav-list">
+      <li><a href="#cardapio" class="drawer-nav-link">CARDÁPIO COMPLETO</a></li>
+      <li><a href="#promos" class="drawer-nav-link">KITS FESTA & COMBOS</a></li>
+      <li><a href="#mais-pedidos" class="drawer-nav-link">BOLOS DECORADOS</a></li>
+      <li><a href="#mais-pedidos" class="drawer-nav-link">SOBREMESAS & COPOS</a></li>
+      <li><a href="#mais-pedidos" class="drawer-nav-link">SALGADOS ARTESANAIS</a></li>
+      <li><a href="#historias" class="drawer-nav-link">NOSSA HISTÓRIA</a></li>
+      <li><a href="#comunidade" class="drawer-nav-link">MOMENTOS (@docariatoquedearte)</a></li>
+      <li><a href="#contato" class="drawer-nav-link">ONDE ESTAMOS (SBC)</a></li>
+    </ul>
+    <div class="drawer-footer">
+      <a href="https://wa.me/5511963057901" target="_blank" rel="noopener" class="drawer-cta-btn">
+        <span>ENCOMENDAR NO WHATSAPP</span>
+      </a>
+      <p class="drawer-address">Rua Itaquera, 51 - Jd. Petroni, SBC</p>
+    </div>
+  </aside>
+
+  <!-- ================================================================= -->
+  <!-- 03. ASYMMETRIC HERO SECTION (Scene 03)                            -->
+  <!-- ================================================================= -->
+  <main>
+    <section class="hero-section" id="hero">
+      <div class="hero-container">
+        
+        <!-- Left Content Column -->
+        <div class="hero-content">
+          
+          <h1 class="hero-title">
+            Doces & Bolos com<br> Toque de Arte!
+          </h1>
+          
+          <p class="hero-subtitle">
+            100% artesanal • ingredientes nobres • feitos com amor
+          </p>
+
+          <div class="hero-cta-wrapper">
+            <a href="https://wa.me/5511963057901?text=Ol%C3%A1%2C+gostaria+de+fazer+uma+encomenda+na+Do%C3%A7aria+Toque+de+Arte!" target="_blank" rel="noopener" class="hero-primary-cta">
+              Faça sua Encomenda
+            </a>
+          </div>
+
+        </div>
+
+        <!-- Right Visual Cluster: Dynamic Layered Subject Cutouts & Hand-Drawn Annotations -->
+        <div class="hero-visual-cluster">
+          
+          <!-- SVG Hand-Drawn Curved Annotation Arrows -->
+          <svg class="annotation-layer" viewBox="0 0 620 480" fill="none">
+            <!-- Arrow 1: Top arrow pointing to cake -->
+            <path class="arrow-path" d="M120,40 C170,10 240,20 270,55" stroke="#24140D" stroke-width="2.6" stroke-linecap="round" stroke-dasharray="5 5"/>
+            <polygon points="275,60 262,51 268,61" fill="#24140D"/>
+            
+            <!-- Arrow 2: Upper Right arrow pointing to dessert cup -->
+            <path class="arrow-path" d="M520,70 C560,95 565,160 520,200" stroke="#24140D" stroke-width="2.6" stroke-linecap="round" stroke-dasharray="5 5"/>
+            <polygon points="516,204 528,197 521,192" fill="#24140D"/>
+
+            <!-- Arrow 3: Bottom Right arrow pointing to confection -->
+            <path class="arrow-path" d="M500,430 C460,450 380,440 330,400" stroke="#24140D" stroke-width="2.6" stroke-linecap="round" stroke-dasharray="5 5"/>
+            <polygon points="325,395 334,407 339,399" fill="#24140D"/>
+          </svg>
+
+          <!-- Hand-Drawn Cursive Annotation Texts -->
+          <span class="handwritten-tag tag-top">100% artesanal ✨</span>
+          <span class="handwritten-tag tag-right">frutas frescas & ninho 🍓</span>
+          <span class="handwritten-tag tag-bottom">chocolate nobre 🍫</span>
+
+          <!-- Cutout Item 1: Main Star Whole Cake -->
+          <div class="cutout-item item-main-cake">
+            <img src="assets/cutouts/bolo-artesanal.png" alt="Bolo Decorado Artesanal com Frutas Vermelhas" class="cutout-img">
+          </div>
+
+          <!-- Cutout Item 2: Copo da Felicidade -->
+          <div class="cutout-item item-copo">
+            <img src="assets/cutouts/copo-felicidade.png" alt="Copo da Felicidade Uva e Ninho" class="cutout-img">
+          </div>
+
+          <!-- Cutout Item 3: Brigadeiro Gourmet de Churros -->
+          <div class="cutout-item item-brigadeiro">
+            <img src="assets/cutouts/brigadeiro-churros.png" alt="Brigadeiro Gourmet de Churros" class="cutout-img">
+          </div>
+
+          <!-- Cutout Item 4: Pastel de Nata Folhado -->
+          <div class="cutout-item item-pastel">
+            <img src="assets/cutouts/pastel-nata.png" alt="Pastel de Nata Artesanal" class="cutout-img">
+          </div>
+
+          <!-- Floating Accent: Fresh Strawberry Garnish -->
+          <div class="cutout-item item-morango">
+            <img src="assets/cutouts/morango-fresco.png" alt="Morango Fresco" class="cutout-img">
+          </div>
+
+          <!-- Floating Decorative Sparkles -->
+          <div class="floating-sparkle sparkle-1">✦</div>
+          <div class="floating-sparkle sparkle-2">★</div>
+          <div class="floating-sparkle sparkle-3">✦</div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =============================================================== -->
+    <!-- 04. POST-HERO TRANSITION: "ORGULHO EM SERVIR" TRUST RIBBON      -->
+    <!-- (Scene 04 - Reference "Proud To Be" Counterpart)                -->
+    <!-- =============================================================== -->
+    <section class="trust-ribbon-section" id="diferenciais">
+      <div class="trust-container">
+        
+        <!-- Left Anchor Label -->
+        <div class="trust-anchor-label">
+          <span class="anchor-line-1">Orgulho</span>
+          <span class="anchor-line-2">em Servir</span>
+        </div>
+
+        <!-- Badges Strip: 10 items with center highlighted ribbon banner -->
+        <div class="trust-badges-strip">
+          
+          <!-- Badge 1 -->
+          <div class="trust-badge-card">
+            <div class="badge-icon-circle">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+            </div>
+            <span class="badge-text">100%<br>ARTESANAL</span>
+          </div>
+
+          <!-- Badge 2 -->
+          <div class="trust-badge-card">
+            <div class="badge-icon-circle">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+            </div>
+            <span class="badge-text">INGREDIENTES<br>NOBRES</span>
+          </div>
+
+          <!-- Badge 3 -->
+          <div class="trust-badge-card">
+            <div class="badge-icon-circle">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            </div>
+            <span class="badge-text">PRODUÇÃO<br>DIÁRIA</span>
+          </div>
+
+          <!-- Badge 4 -->
+          <div class="trust-badge-card">
+            <div class="badge-icon-circle">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <span class="badge-text">CHOCOLATE<br>NOBRE</span>
+          </div>
+
+          <!-- Badge 5: CENTER HIGHLIGHT RIBBON -->
+          <div class="trust-badge-card badge-highlight-starburst">
+            <div class="starburst-inner">
+              <span class="starburst-title">RECEITAS EXCLUSIVAS</span>
+              <span class="starburst-sub">FEITAS COM AMOR</span>
+            </div>
+          </div>
+
+          <!-- Badge 6 -->
+          <div class="trust-badge-card">
+            <div class="badge-icon-circle">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
+            </div>
+            <span class="badge-text">FRUTAS<br>FRESCAS</span>
+          </div>
+
+          <!-- Badge 7 -->
+          <div class="trust-badge-card">
+            <div class="badge-icon-circle">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M18 8h1a4 4 0 0 1 0 8h-1M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8zM6 1v3M10 1v3M14 1v3"/></svg>
+            </div>
+            <span class="badge-text">CAFÉ<br>EXPRESSO</span>
+          </div>
+
+          <!-- Badge 8 -->
+          <div class="trust-badge-card">
+            <div class="badge-icon-circle">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <span class="badge-text">4.7★ NO<br>GOOGLE</span>
+          </div>
+
+          <!-- Badge 9 -->
+          <div class="trust-badge-card">
+            <div class="badge-icon-circle">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 18v-6a9 9 0 0 1 18 0v6M21 19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-1h18v1z"/></svg>
+            </div>
+            <span class="badge-text">SALGADOS<br>SEQUINHOS</span>
+          </div>
+
+          <!-- Badge 10 -->
+          <div class="trust-badge-card">
+            <div class="badge-icon-circle">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+            </div>
+            <span class="badge-text">KITS<br>FESTA</span>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =============================================================== -->
+    <!-- 05. DUAL PROMO HIGH-IMPACT COLOR CARDS (Scene 05)               -->
+    <!-- =============================================================== -->
+    <section class="promo-cards-section" id="promos">
+      <div class="promo-container">
+        
+        <!-- Promo Card Left (Teal Cyan with Kit Festa Breakout Cutout) -->
+        <div class="promo-card card-cyan">
+          <div class="promo-card-content">
+            <h2 class="promo-card-title">NOVO! KITS FESTA COMPLETOS!</h2>
+            <p class="promo-card-desc">Bolo decorado + salgados crocantes + docinhos gourmet para a sua comemoração.</p>
+            <a href="https://wa.me/5511963057901?text=Ol%C3%A1%2C+gostaria+de+encomendar+um+Kit+Festa+Completo!" target="_blank" rel="noopener" class="promo-card-btn">ENCOMENDAR KIT</a>
+          </div>
+          <div class="promo-card-image-wrap wrap-kit">
+            <img src="assets/cutouts/kit-festa-cutout.png" alt="Kit Festa Completo com Bolo e Salgados" class="promo-breakout-img img-kit">
+          </div>
+        </div>
+
+        <!-- Promo Card Right (Deep Teal with KitKat Cake Breakout Cutout) -->
+        <div class="promo-card card-teal">
+          <div class="promo-card-content">
+            <h2 class="promo-card-title">BOLOS ESPECIAIS & KITKAT!</h2>
+            <p class="promo-card-desc">Mais de 15 sabores sob encomenda com fita personalizada e recheio generoso.</p>
+            <a href="https://wa.me/5511963057901?text=Ol%C3%A1%2C+gostaria+de+ver+as+op%C3%A7%C3%B5es+de+Bolos+Decorados+e+KitKat!" target="_blank" rel="noopener" class="promo-card-btn">VER OPÇÕES</a>
+          </div>
+          <div class="promo-card-image-wrap wrap-kitkat">
+            <img src="assets/cutouts/bolo-kitkat-cutout.png" alt="Bolo KitKat com Fita Personalizada Toque de Arte" class="promo-breakout-img img-kitkat">
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =============================================================== -->
+    <!-- 06. BEST SELLERS 4-COLUMN PRODUCT SHOWCASE (Scene 06)           -->
+    <!-- =============================================================== -->
+    <section class="best-sellers-section" id="mais-pedidos">
+      <div class="section-container">
+        
+        <!-- Section Header with Centered Title and Framing Lines -->
+        <div class="section-title-wrapper">
+          <span class="title-decor-line"></span>
+          <h2 class="section-title">Mais Pedidos</h2>
+          <span class="title-decor-line"></span>
+        </div>
+
+        <!-- 4-Column Product Grid -->
+        <div class="products-grid">
+          
+          <!-- Product Card 1: Bolo KitKat Gourmet -->
+          <article class="product-card">
+            <div class="product-badge-flag badge-new">MAIS PEDIDO</div>
+            <div class="product-image-box">
+              <img src="imagens/imgi_70_625515277_122145593354965332_5486611764445646374_n.jpg" alt="Bolo KitKat com Brigadeiros e Fita Personalizada" class="product-img">
+            </div>
+            <h3 class="product-name">Bolo KitKat Gourmet com Fita</h3>
+            <p class="product-price">A partir de R$ 95,00</p>
+            <div class="product-rating">
+              <span class="stars">★★★★★</span>
+            </div>
+            <a href="https://wa.me/5511963057901?text=Ol%C3%A1%2C+quero+encomendar+o+Bolo+KitKat+Gourmet!" target="_blank" rel="noopener" class="product-cta-btn">ENCOMENDAR</a>
+          </article>
+
+          <!-- Product Card 2: Copo da Felicidade Uva & Ninho -->
+          <article class="product-card">
+            <div class="product-badge-flag badge-exclusive">EXCLUSIVO</div>
+            <div class="product-image-box">
+              <img src="imagens/imgi_27_717201221_18329713201250098_7869544123780406114_n.jpg" alt="Copo da Felicidade Uva com Brigadeiro e Ninho" class="product-img">
+            </div>
+            <h3 class="product-name">Copo da Felicidade Uva & Ninho</h3>
+            <p class="product-price">R$ 22,00</p>
+            <div class="product-rating">
+              <span class="stars">★★★★★</span>
+            </div>
+            <a href="https://wa.me/5511963057901?text=Ol%C3%A1%2C+quero+o+Copo+da+Felicidade+Uva+%26+Ninho!" target="_blank" rel="noopener" class="product-cta-btn">PEDIR NO WHATSAPP</a>
+          </article>
+
+          <!-- Product Card 3: Kit Festa Completo -->
+          <article class="product-card">
+            <div class="product-badge-flag badge-combo">COMBO FESTA</div>
+            <div class="product-image-box">
+              <img src="imagens/imgi_23_726987380_18331484779250098_6524697080397735236_n.jpg" alt="Kit Festa Completo com Bolo Confeitado e Salgados" class="product-img">
+            </div>
+            <h3 class="product-name">Kit Festa Completo (20 Pessoas)</h3>
+            <p class="product-price">R$ 220,00</p>
+            <div class="product-rating">
+              <span class="stars">★★★★★</span>
+            </div>
+            <a href="https://wa.me/5511963057901?text=Ol%C3%A1%2C+quero+encomendar+o+Kit+Festa+Completo+para+20+pessoas!" target="_blank" rel="noopener" class="product-cta-btn">ENCOMENDAR</a>
+          </article>
+
+          <!-- Product Card 4: Cesto de Salgados Finos -->
+          <article class="product-card">
+            <div class="product-badge-flag badge-crunch">SEQUINHOS</div>
+            <div class="product-image-box">
+              <img src="imagens/imgi_57_656844895_122152841252965332_1139532893885192977_n.jpg" alt="Cesto de Salgados Finos Fritos (100 unidades)" class="product-img">
+            </div>
+            <h3 class="product-name">Cesto de Salgados Finos (Cento)</h3>
+            <p class="product-price">R$ 130,00</p>
+            <div class="product-rating">
+              <span class="stars">★★★★★</span>
+            </div>
+            <a href="https://wa.me/5511963057901?text=Ol%C3%A1%2C+quero+encomendar+o+Cento+de+Salgados+Finos!" target="_blank" rel="noopener" class="product-cta-btn">ENCOMENDAR</a>
+          </article>
+
+        </div>
+
+        <!-- Big Center Section CTA Button -->
+        <div class="section-bottom-action">
+          <a href="https://wa.me/5511963057901?text=Ol%C3%A1%2C+gostaria+de+receber+o+card%C3%A1pio+completo+da+Do%C3%A7aria+Toque+de+Arte!" target="_blank" rel="noopener" class="big-section-btn">
+            VER CARDÁPIO COMPLETO
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =============================================================== -->
+    <!-- 07. EDITORIAL 3-COLUMN GRID: THE SWEET SOURCE (Scene 07)        -->
+    <!-- =============================================================== -->
+    <section class="editorial-section" id="historias">
+      <div class="section-container">
+        
+        <!-- Section Header with Centered Title -->
+        <div class="section-title-wrapper">
+          <span class="title-decor-line"></span>
+          <h2 class="section-title">O Segredo do Nosso Toque de Arte</h2>
+          <span class="title-decor-line"></span>
+        </div>
+
+        <!-- 3-Column 1:1 Aspect Ratio Editorial Grid -->
+        <div class="editorial-grid">
+          
+          <!-- Editorial Card 1 -->
+          <article class="editorial-card">
+            <div class="editorial-img-box">
+              <img src="imagens/imgi_65_649134244_18316844608250098_4654065301434289594_n.jpg" alt="Confeiteira confeitando bolo artesanal com espátula" class="editorial-img">
+            </div>
+            <h3 class="editorial-title">Pão de Ló Fofinho & Confeitaria com Precisão</h3>
+            <p class="editorial-snippet">Conheça o processo artesanal diário de massas arejadas e montagens minuciosas que transformam cada bolo em uma verdadeira obra de arte.</p>
+          </article>
+
+          <!-- Editorial Card 2 -->
+          <article class="editorial-card">
+            <div class="editorial-img-box">
+              <img src="imagens/imgi_42_683729291_18324722776250098_8773151301834325072_n.jpg" alt="Confeiteira decorando bolo com morangos frescos selecionados" class="editorial-img">
+            </div>
+            <h3 class="editorial-title">Frutas Frescas & Ingredientes de Primeira Linha</h3>
+            <p class="editorial-snippet">Morangos selecionados um a um, chocolate nobre e brigadeiros em ponto de veludo para garantir uma textura irresistível da primeira à última colherada.</p>
+          </article>
+
+          <!-- Editorial Card 3 -->
+          <article class="editorial-card">
+            <div class="editorial-img-box">
+              <img src="imagens/imgi_61_651205338_122151176984965332_5868595054256801607_n.jpg" alt="Degustação de sobremesa artesanal com colher" class="editorial-img">
+            </div>
+            <h3 class="editorial-title">A Delicatessen do Grande ABC</h3>
+            <p class="editorial-snippet">Uma experiência acolhedora no Jardim Petroni em São Bernardo do Campo com cafés expressos, salgados assados e monoporções prontas para levar.</p>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =============================================================== -->
+    <!-- 08. OUR COMMUNITY UGC MOSAIC (Scene 08 - 1 Large + 6 Tiles)     -->
+    <!-- =============================================================== -->
+    <section class="community-mosaic-section" id="comunidade">
+      <div class="section-container">
+        
+        <!-- Section Header -->
+        <div class="section-title-wrapper">
+          <span class="title-decor-line"></span>
+          <div class="community-header-text">
+            <h2 class="section-title">Nossos Momentos & Criações</h2>
+            <a href="https://www.instagram.com/docariatoquedearte/" target="_blank" rel="noopener" class="community-handle">@docariatoquedearte no Instagram</a>
+          </div>
+          <span class="title-decor-line"></span>
+        </div>
+
+        <!-- Asymmetric Mosaic Layout: 1 Large Vertical Hero + 6-Tile Grid (3x2) -->
+        <div class="community-mosaic-layout">
+          
+          <!-- Left Large Vertical Hero Tile -->
+          <div class="mosaic-hero-tile">
+            <img src="imagens/imgi_65_649134244_18316844608250098_4654065301434289594_n.jpg" alt="Arte da confeitaria ao vivo na Doçaria Toque de Arte" class="mosaic-img">
+            <div class="mosaic-overlay">
+              <span class="mosaic-tag">#FeitoComArte</span>
+              <span class="mosaic-caption">Confeitaria artesanal ao vivo em São Bernardo do Campo</span>
+            </div>
+          </div>
+
+          <!-- Right 6-Tile Grid (3 Columns x 2 Rows) -->
+          <div class="mosaic-subgrid">
+            
+            <!-- Tile 1: Vitrine da Loja Física -->
+            <div class="mosaic-small-tile">
+              <img src="imagens/imgi_68_642642724_18316331038250098_625340280111293116_n.jpg" alt="Vitrine refrigerada na loja física" class="mosaic-img">
+              <div class="mosaic-overlay-mini"><span>Vitrine Diária</span></div>
+            </div>
+
+            <!-- Tile 2: Tortinha de Maracujá -->
+            <div class="mosaic-small-tile">
+              <img src="imagens/imgi_67_640925402_122148680684965332_6862322186291601749_n.jpg" alt="Tortinha de Maracujá com Merengue" class="mosaic-img">
+              <div class="mosaic-overlay-mini"><span>Tortinha de Maracujá</span></div>
+            </div>
+
+            <!-- Tile 3: Copo Tropical de Frutas -->
+            <div class="mosaic-small-tile">
+              <img src="imagens/imgi_37_688916265_18326357695250098_8442656209436216573_n.jpg" alt="Copo Tropical de Frutas Frescas e Ninho" class="mosaic-img">
+              <div class="mosaic-overlay-mini"><span>Copo Tropical</span></div>
+            </div>
+
+            <!-- Tile 4: Bolo de Pote Ouro Branco -->
+            <div class="mosaic-small-tile">
+              <img src="imagens/imgi_46_671633550_18323540593250098_8314876063372677564_n.jpg" alt="Bolo de Pote Ouro Branco Cremoso" class="mosaic-img">
+              <div class="mosaic-overlay-mini"><span>Bolo de Pote</span></div>
+            </div>
+
+            <!-- Tile 5: Bandeja de Pastéis de Nata -->
+            <div class="mosaic-small-tile">
+              <img src="imagens/imgi_30_715059861_18329295463250098_882949117279643545_n.jpg" alt="Pastéis de Nata Folhados e Dourados" class="mosaic-img">
+              <div class="mosaic-overlay-mini"><span>Pastéis de Nata</span></div>
+            </div>
+
+            <!-- Tile 6: Cesta de Salgados Fritos -->
+            <div class="mosaic-small-tile">
+              <img src="imagens/imgi_57_656844895_122152841252965332_1139532893885192977_n.jpg" alt="Cestas de Salgados Fritos Crocantes" class="mosaic-img">
+              <div class="mosaic-overlay-mini"><span>Salgados Finos</span></div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =============================================================== -->
+    <!-- 09. FULL-BLEED SATURATED SOCIAL RIBBON (Scene 09)               -->
+    <!-- =============================================================== -->
+    <section class="social-ribbon-section">
+      <div class="social-ribbon-container">
+        
+        <!-- Social 1: Instagram -->
+        <a href="https://www.instagram.com/docariatoquedearte/" target="_blank" rel="noopener" class="social-circle-btn" aria-label="Instagram @docariatoquedearte" title="Siga no Instagram (5.054 seguidores)">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+        </a>
+
+        <!-- Social 2: WhatsApp -->
+        <a href="https://wa.me/5511963057901" target="_blank" rel="noopener" class="social-circle-btn" aria-label="WhatsApp (11) 96305-7901" title="Chame no WhatsApp">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+        </a>
+
+        <!-- Social 3: iFood -->
+        <a href="https://www.ifood.com.br" target="_blank" rel="noopener" class="social-circle-btn" aria-label="Cardápio no iFood" title="Peça no iFood">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8zM6 1v3M10 1v3M14 1v3"></path></svg>
+        </a>
+
+        <!-- Social 4: Google Maps -->
+        <a href="https://maps.google.com/?q=Rua+Itaquera+51+Jardim+Petroni+Sao+Bernardo+do+Campo" target="_blank" rel="noopener" class="social-circle-btn" aria-label="Google Maps (159 avaliações 4.7★)" title="Localização no Google Maps">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- =============================================================== -->
+    <!-- 10. LEAD CAPTURE & VIP CLUB STRIP (Scene 10)                    -->
+    <!-- =============================================================== -->
+    <section class="newsletter-strip-section" id="contato">
+      <div class="newsletter-container">
+        
+        <h2 class="newsletter-title">Receba Novidades & Cupons Especiais</h2>
+        <p class="newsletter-desc">Cadastre seu e-mail ou WhatsApp para receber em primeira mão o cardápio de datas especiais (Páscoa, Natal, Dia das Mães) e descontos exclusivos.</p>
+
+        <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Obrigado! Em breve você receberá nossas delícias e novidades exclusivas.');">
+          <input type="text" class="newsletter-input" placeholder="Digite seu melhor e-mail ou WhatsApp..." required>
+          <button type="submit" class="newsletter-submit-btn">CADASTRAR</button>
+        </form>
+
+        <p class="newsletter-disclaimer">Ao cadastrar, você concorda em receber comunicações exclusivas da Doçaria Toque de Arte. Sem spam.</p>
+
+      </div>
+    </section>
+
+    <!-- =============================================================== -->
+    <!-- 11. MONUMENTAL 3-TIER FOOTER (Scene 11)                         -->
+    <!-- =============================================================== -->
+    <footer class="monumental-footer">
+      <div class="footer-container">
+        
+        <!-- Tier 1: Formas de Pagamento & Bandeiras -->
+        <div class="footer-payment-strip">
+          <span class="payment-badge-tag">VISA</span>
+          <span class="payment-badge-tag">MASTERCARD</span>
+          <span class="payment-badge-tag">ELO</span>
+          <span class="payment-badge-tag">HIPERCARD</span>
+          <span class="payment-badge-tag">PIX</span>
+          <span class="payment-badge-tag">SODEXO</span>
+          <span class="payment-badge-tag">ALELO</span>
+          <span class="payment-badge-tag">TICKET</span>
+          <span class="payment-badge-tag">VR</span>
+        </div>
+
+        <!-- Tier 2 & 3: Giant Wordmark + 8-Column Detailed Taxonomy -->
+        <div class="footer-main-layout">
+          
+          <div class="footer-brand-column">
+            <h2 class="footer-giant-logo">TOQUE DE ARTE</h2>
+            <p class="footer-brand-motto">Doçaria & Delicatessen artesanal. Criando momentos doces e inesquecíveis em São Bernardo do Campo e Grande ABC desde 2018.</p>
+            <div class="footer-info-item">
+              <strong>Endereço:</strong> Rua Itaquera, 51 - Jardim Petroni, SBC - SP
+            </div>
+            <div class="footer-info-item">
+              <strong>WhatsApp:</strong> (11) 96305-7901
+            </div>
+            <div class="footer-info-item">
+              <strong>Horários:</strong> Seg a Sáb 09h-19h | Dom 09h-15h
+            </div>
+          </div>
+
+          <!-- 8 Taxonomy Columns -->
+          <div class="footer-taxonomy-grid">
+            
+            <div class="taxonomy-column">
+              <h3 class="tax-heading">Bolos de Festa</h3>
+              <ul class="tax-list">
+                <li><a href="#mais-pedidos">Bolo KitKat</a></li>
+                <li><a href="#mais-pedidos">Frutas Vermelhas</a></li>
+                <li><a href="#mais-pedidos">Morango c/ Ninho</a></li>
+                <li><a href="#mais-pedidos">Brigadeiro Nobre</a></li>
+                <li><a href="#mais-pedidos">Doce de Leite</a></li>
+              </ul>
+            </div>
+
+            <div class="taxonomy-column">
+              <h3 class="tax-heading">Kits Festa</h3>
+              <ul class="tax-list">
+                <li><a href="#promos">Kit 10 Pessoas</a></li>
+                <li><a href="#promos">Kit 20 Pessoas</a></li>
+                <li><a href="#promos">Kit 30 Pessoas</a></li>
+                <li><a href="#promos">Kit 50 Pessoas</a></li>
+                <li><a href="#promos">Personalizados</a></li>
+              </ul>
+            </div>
+
+            <div class="taxonomy-column">
+              <h3 class="tax-heading">Sobremesas</h3>
+              <ul class="tax-list">
+                <li><a href="#mais-pedidos">Copos da Felicidade</a></li>
+                <li><a href="#mais-pedidos">Tortinhas de Frutas</a></li>
+                <li><a href="#mais-pedidos">Pudim Artesanal</a></li>
+                <li><a href="#mais-pedidos">Bolos de Pote</a></li>
+                <li><a href="#mais-pedidos">Cannoli Italiano</a></li>
+              </ul>
+            </div>
+
+            <div class="taxonomy-column">
+              <h3 class="tax-heading">Salgados Finos</h3>
+              <ul class="tax-list">
+                <li><a href="#mais-pedidos">Coxinhas Douradas</a></li>
+                <li><a href="#mais-pedidos">Bolinhas de Queijo</a></li>
+                <li><a href="#mais-pedidos">Kibes Especiais</a></li>
+                <li><a href="#mais-pedidos">Croissants Folhados</a></li>
+                <li><a href="#mais-pedidos">Esfihas de Carne</a></li>
+              </ul>
+            </div>
+
+            <div class="taxonomy-column">
+              <h3 class="tax-heading">Cafeteria</h3>
+              <ul class="tax-list">
+                <li><a href="#cardapio">Café Expresso</a></li>
+                <li><a href="#cardapio">Cappuccino Doce</a></li>
+                <li><a href="#cardapio">Pastéis de Nata</a></li>
+                <li><a href="#cardapio">Pães de Mel</a></li>
+                <li><a href="#cardapio">Cones Trufados</a></li>
+              </ul>
+            </div>
+
+            <div class="taxonomy-column">
+              <h3 class="tax-heading">Sazonais</h3>
+              <ul class="tax-list">
+                <li><a href="#promos">Ovos de Páscoa</a></li>
+                <li><a href="#promos">Pistache Nobre</a></li>
+                <li><a href="#promos">Panetones Trufados</a></li>
+                <li><a href="#promos">Caixas Presente</a></li>
+                <li><a href="#promos">Lembrancinhas</a></li>
+              </ul>
+            </div>
+
+            <div class="taxonomy-column">
+              <h3 class="tax-heading">Institucional</h3>
+              <ul class="tax-list">
+                <li><a href="#historias">Sobre Nós</a></li>
+                <li><a href="#comunidade">Instagram</a></li>
+                <li><a href="https://maps.google.com/?q=Rua+Itaquera+51+Jardim+Petroni+Sao+Bernardo+do+Campo" target="_blank" rel="noopener">Avaliações (4.7★)</a></li>
+                <li><a href="#contato">Localização</a></li>
+                <li><a href="https://wa.me/5511963057901" target="_blank" rel="noopener">Atendimento VIP</a></li>
+              </ul>
+            </div>
+
+            <div class="taxonomy-column">
+              <h3 class="tax-heading">Delivery</h3>
+              <ul class="tax-list">
+                <li><a href="https://wa.me/5511963057901" target="_blank" rel="noopener">WhatsApp Direto</a></li>
+                <li><a href="https://www.ifood.com.br" target="_blank" rel="noopener">iFood Oficial</a></li>
+                <li><a href="#cardapio">99Food</a></li>
+                <li><a href="#cardapio">Keeta Delivery</a></li>
+                <li><a href="#cardapio">Retirada na Loja</a></li>
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Tier 4: Copyright & Legal Notes -->
+        <div class="footer-legal-bar">
+          <p>© 2026 Doçaria Toque de Arte. Todos os direitos reservados. R. Itaquera, 51 - Jardim Petroni, São Bernardo do Campo - SP, 09761-120.</p>
+          <p class="footer-tagline">Feito com Amor & Toque de Arte.</p>
+        </div>
+
+      </div>
+    </footer>
+
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

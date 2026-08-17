@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://docariatoquedearte.vercel.app/sitemap.xml
